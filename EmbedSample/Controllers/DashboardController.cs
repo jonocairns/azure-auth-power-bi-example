@@ -10,6 +10,7 @@ using paas_demo.Models;
 
 namespace paas_demo.Controllers
 {
+    [Authorize]
     public class DashboardController : Controller
     {
         private readonly string workspaceCollection;
